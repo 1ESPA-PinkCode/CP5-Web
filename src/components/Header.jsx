@@ -32,7 +32,7 @@ const Header = () => {
           </NavLink>
 
           <NavLink
-            to="/app"
+            to="/produto"
             className={({ isActive }) =>
               `${linkBase} ${isActive ? linkActive : linkInactive}`
             }
