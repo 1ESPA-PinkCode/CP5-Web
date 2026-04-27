@@ -1,4 +1,11 @@
 import { Link } from "react-router-dom";
+import {
+  BsController,
+  BsTag,
+  BsLightningChargeFill,
+  BsShieldCheck,
+  BsPersonFill
+} from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -50,7 +57,7 @@ export default function Home() {
 
           <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
             <div className="flex items-center justify-center w-14 h-14 bg-carrotorange rounded-full mx-auto mb-4">
-              <i className="fa-solid fa-gamepad text-alabaster text-2xl"></i>
+              <BsController className="text-alabaster text-2xl" />
             </div>
             <h3 className="font-black text-lg text-gray-900">Catálogo Enorme</h3>
             <p className="mt-2 text-sm text-gray-500">
@@ -60,7 +67,8 @@ export default function Home() {
 
           <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
             <div className="flex items-center justify-center w-14 h-14 bg-carrotorange rounded-full mx-auto mb-4">
-              <i className="fa-solid fa-tag text-alabaster text-2xl"></i>
+              <BsTag className="text-alabaster text-2xl" />
+ 
             </div>
             <h3 className="font-black text-lg text-gray-900">Melhores Preços</h3>
             <p className="mt-2 text-sm text-gray-500">
@@ -70,7 +78,7 @@ export default function Home() {
 
           <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
             <div className="flex items-center justify-center w-14 h-14 bg-carrotorange rounded-full mx-auto mb-4">
-              <i className="fa-solid fa-bolt text-alabaster text-2xl"></i>
+              <BsLightningChargeFill className="text-alabaster text-2xl" />
             </div>
             <h3 className="font-black text-lg text-gray-900">Entrega Rápida</h3>
             <p className="mt-2 text-sm text-gray-500">
@@ -80,7 +88,7 @@ export default function Home() {
 
           <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
             <div className="flex items-center justify-center w-14 h-14 bg-carrotorange rounded-full mx-auto mb-4">
-              <i className="fa-solid fa-shield-halved text-alabaster text-2xl"></i>
+              <BsShieldCheck className="text-alabaster text-2xl" />
             </div>
             <h3 className="font-black text-lg text-gray-900">Compra Segura</h3>
             <p className="mt-2 text-sm text-gray-500">
@@ -110,7 +118,7 @@ export default function Home() {
             </p>
             <div className="flex items-center gap-3 mt-5">
               <div className="w-10 h-10 rounded-full bg-lightblue flex items-center justify-center">
-                <i className="fa-solid fa-user text-alabaster text-sm"></i>
+                <BsPersonFill className="text-alabaster text-sm" />
               </div>
               <div>
                 <p className="font-black text-sm text-gray-900">Luiza Franco</p>
@@ -126,7 +134,7 @@ export default function Home() {
             </p>
             <div className="flex items-center gap-3 mt-5">
               <div className="w-10 h-10 rounded-full bg-lightblue  flex items-center justify-center">
-                <i className="fa-solid fa-user text-alabaster text-sm"></i>
+                <BsPersonFill className="text-alabaster text-sm" />
               </div>
               <div>
                 <p className="font-black text-sm text-gray-900">Lara Mofid</p>
@@ -142,7 +150,7 @@ export default function Home() {
             </p>
             <div className="flex items-center gap-3 mt-5">
               <div className="w-10 h-10 rounded-full bg-lightblue flex items-center justify-center">
-                <i className="fa-solid fa-user text-alabaster text-sm"></i>
+                <BsPersonFill className="text-alabaster text-sm" />
               </div>
               <div>
                 <p className="font-black text-sm text-gray-900">Roberta Moreira</p>
