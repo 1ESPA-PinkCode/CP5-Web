@@ -6,14 +6,13 @@ import Suporte from "./routes/Suporte";
 import Error from "./routes/Error";
 import Produto from "./routes/Produto";
 import "./index.css";
-import '@fortawesome/fontawesome-free/css/all.min.css'
- 
+
 function App() {
   return (
     <Browser>
       <div className="min-h-screen flex flex-col">
         <Header/>
- 
+
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -22,11 +21,11 @@ function App() {
             <Route path="*" element={<Error />} />
           </Routes>
         </main>
- 
+
         <Footer />
       </div>
     </Browser>
   );
 }
- 
+
 export default App;
