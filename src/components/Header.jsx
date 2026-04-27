@@ -37,7 +37,7 @@ const Header = () => {
               `${linkBase} ${isActive ? linkActive : linkInactive}`
             }
           >
-            Produtos
+            Produto
           </NavLink>
 
           <NavLink

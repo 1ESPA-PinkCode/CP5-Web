@@ -35,7 +35,7 @@ export default function Home() {
           </p>
 
           <Link
-            to="/produtos"
+            to="/produto"
             className="inline-block mt-8 px-8 py-4 bg-carrotorange text-alabaster font-bold text-lg rounded-full hover:bg-orange-600 hover:scale-105 transition duration-300"
           >
             Ver Jogos 
@@ -178,7 +178,7 @@ export default function Home() {
           </div>
 
           <Link
-            to="/produtos"
+            to="/produto"
             className="inline-block px-10 py-4 bg-carrotorange text-alabaster font-bold text-lg rounded-full hover:bg-orange-600 hover:scale-105 transition duration-300"
           >
             Ver Todos os Jogos
