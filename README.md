@@ -38,22 +38,44 @@ O projeto apresenta uma interface atrativa com seções de destaque, catálogo d
 ## Estrutura de pastas
 
 ```bash
-src/
-├── assets/          # Imagens e recursos estáticos
-│   ├── foto.hero.jpg
-│   └── logo.PNG
-├── components/      # Componentes reutilizáveis
-│   ├── Card.jsx
-│   ├── Footer.jsx
-│   └── Header.jsx
-├── routes/          # Páginas da aplicação
-│   ├── Error.jsx
-│   ├── Home.jsx
-│   ├── Produto.jsx
-│   └── Suporte.jsx
-├── App.jsx
-├── index.css
-└── main.jsx
+CP5-WEBDEV/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/                # Imagens e recursos estáticos
+│   │   ├── cyberpunk.jpeg
+│   │   ├── fifa.jpeg
+│   │   ├── foto.hero.jpg
+│   │   ├── godofwar.jpeg
+│   │   ├── gta.jpeg
+│   │   ├── logo.PNG
+│   │   ├── mario.jpeg
+│   │   ├── minecraft.jpeg
+│   │   ├── reddead.jpeg
+│   │   └── zelda.jpeg
+│   │
+│   ├── components/            # Componentes reutilizáveis
+│   │   ├── Card.jsx
+│   │   ├── Footer.jsx
+│   │   └── Header.jsx
+│   │
+│   ├── routes/                # Páginas da aplicação
+│   │   ├── Error.jsx
+│   │   ├── Home.jsx
+│   │   ├── Produto.jsx
+│   │   └── Suporte.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
 ```
 
 ---
