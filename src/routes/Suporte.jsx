@@ -124,7 +124,7 @@ const Suporte = () => {
             <div className="flex flex-col gap-3 sm:flex-row">
               <button
                 type="submit"
-                className="rounded-full bg-[#EA631B] px-6 py-3 font-semibold text-white shadow-md transition hover:bg-[#93CB52] hover:text-[#1c9770ff]"
+                className="rounded-full bg-[#EA631B] px-6 py-3 font-semibold text-white shadow-md transition hover:bg-[#A8C2E0] hover:text-[#EBEBDF]"
               >
                 Enviar
               </button>
@@ -132,7 +132,7 @@ const Suporte = () => {
               <button
                 type="button"
                 onClick={handleReset}
-                className="rounded-full bg-[#A8C2E0] px-6 py-3 font-semibold text-[#EA631B] shadow-md transition hover:bg-[#83abd9]"
+                className="rounded-full bg-[#EA631B] px-6 py-3 font-semibold text-white shadow-md transition hover:bg-[#A8C2E0] hover:text-[#EBEBDF]"
               >
                 Limpar
               </button>
@@ -145,7 +145,7 @@ const Suporte = () => {
         </div>
 
         <div className="space-y-8">
-          <div className="rounded-3xl border border-[#7AD1C3] bg-white p-8 shadow-xl">
+          <div className="rounded-3xl border border-[#A8C2E0] bg-white p-8 shadow-xl">
             <h2 className="mb-6 text-2xl font-bold text-[#EA631B]">
               Perguntas frequentes
             </h2>
